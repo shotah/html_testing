@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ARCH}} LED Control</title>
+    <style type="text/css">
+        {
+            {
+                body {
+                    -webkit-appearance: none;
+                }
+                p {
+                    font-family: 'Arial', sans-serif;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                .button {
+                    display: block;
+                    width: 150px;
+                    margin: 10px auto;
+                    padding: 7px 13px;
+                    text-align: center;
+                    background: #668ad8;
+                    font-size: 20px;
+                    color: #ffffff;
+                    white-space: nowrap;
+                    box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                }
+                .button:active {
+                    font-weight: bold;
+                    vertical-align: top;
+                    padding: 8px 13px 6px;
+                }
+                .one a {
+                    text-decoration: none;
+                }
+                .img {
+                    text-align: center;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>{{ARCH}} LED Control</p>
+    <div class="one">
+        <p><a class="button" href="/?led=on">ON</a></p>
+        <p><a class="button" href="/?led=off">OFF</a></p>
+    </div>
+    <div class="img">
+        <img src="{{LEDIO}}" />
+    </div>
+</body>
+
+</html>
